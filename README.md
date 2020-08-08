@@ -1,19 +1,3 @@
-# Live URL
-https://piyali-ecommerce.herokuapp.com
-
-# Admin URL
-https://piyali-ecommerce.herokuapp.com/#/admin
-
-# Swagger URL
-https://piyali-ecommerce.herokuapp.com/api-docs/
-
-login credentails
-```
-piyali@gmail.com / admin123
-demo@gmail.com / demo123
-admintest@gmail.com / test123
-```
-
 
 # Run Ecommerce application
 Run these two scripts in two different git bash 
@@ -22,11 +6,6 @@ npm start will start my Angular Application and npm run start:server will start 
 npm start 
 npm run start:server
 ```
-
-# CI/CD (Continuous Integration/Continuous Delivery) with Heroku and GitHub
-https://www.youtube.com/watch?v=_tiecDrW6yY
-https://www.youtube.com/watch?v=O_xEqtjh1io
-https://devcenter.heroku.com/articles/github-integration
 
 # Mockdata
 
@@ -702,43 +681,3 @@ declarations: [
    HighchartsChartComponent    
 ],
 ```
-
-Following is the content of the modified HTML host file app.component.html.
-
-```
-<highcharts-chart
-   [Highcharts] = "highcharts" 
-   [options] = "chartOptions" 
-   style = "width: 100%; height: 400px; display: block;">
-</highcharts-chart>
-```
-
-# Swagger tutorials
-
-https://www.youtube.com/watch?v=qemG0CWOx1I
-https://github.com/Sean-Bradley/Seans-TypeScript-NodeJS-CRUD-REST-API-Boilerplate
-https://www.youtube.com/watch?v=PbwQWw7xSOM
-http://petstore.swagger.io/
-https://itnext.io/setting-up-swagger-in-a-node-js-application-d3c4d7aa56d4
-https://www.youtube.com/watch?v=w71TrUUWRDU
-https://swagger.io/docs/
-http://editor.swagger.io/?_ga=2.212193814.307479361.1574600989-1925759619.1574389229
-
-# Swagger Implementation
-
-```
-1. cd ecommerce_backend
-2. npm run swagger
-3. npm run start:server
-```
-
-
-
-# Stripe payment gateway
-
-
-https://angularfirst.com/typescript-string-enums/
-
-
-
-
